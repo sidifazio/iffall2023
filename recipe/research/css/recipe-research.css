@@ -1,0 +1,34 @@
+li {
+    margin-bottom: 20px;
+    letter-spacing: -.03em;
+}
+
+/*.bigphoto {
+    margin: 0;
+    height: 65vw;
+    width: 100%;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc_Up3qly2dBeZJC86NilXAXV9bIgPKblI3VL76I4_OzquNltaa6YF1yk8V8gkwOtASM_CkbVFRc1WcC4TxH0iMNtIOGjBXCBNSZg11uEGKhDS3MKYEO=w2400)
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.content {
+    padding: 0 30px;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: -.01em;
+}
+
+p {
+    letter-spacing: -.03em;
+}
