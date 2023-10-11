@@ -1,0 +1,167 @@
+section {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    color: #f7f6f0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 8px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -3px;
+    color: #f7f6f0;
+}
+
+h4 {
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    margin-top: -1px;
+    line-height: 25.1px;
+}
+
+.intro {
+    margin: auto;
+    text-align: center;
+    padding-top: 152px;
+    padding-bottom: 182px;
+    background-image: url(../editedimages/train.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.photo-section {
+    background-color: #f7f6f0;
+    padding-top: 1px;
+    height: 716px;
+    margin-bottom: 0;
+    color: rgb(8, 9, 15);
+}
+
+.content {
+    width: 959px;
+    margin: auto;
+    margin-top: -2px;
+}
+
+.img-400-300 {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.little-photos {
+    margin: auto;
+    padding-bottom: 58px;
+    background-color: rgb(14, 12, 17);
+    margin-top: 0px;
+    padding-top: 1px;
+}
+
+.little-photos h2, .little-photos h4, .little-photos p {
+    color:#f7f6f0;
+}
+
+.box img{
+    height: 150px;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    margin-left: -2px;
+    padding-right: 2px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.box section {
+    padding-left: 10px;
+    height: 170px;
+    border: none;
+}
+
+.box p {
+    width: 230px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    border: none;
+    gap: 4px;
+}
+
+.photo-grid {
+    max-width: 955px;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    margin-top: -2px;
+    justify-content: space-evenly;
+    border: none;
+    gap: 6px;
+    margin-bottom: 3px;
+}
+
+.words-only-box {
+    width: 100%;
+    background-color: #f7f6f0;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin: 0;
+    color: rgb(8, 9, 15);
+}
+
+.words-only-box h2 {
+    color: rgb(8, 9, 15);
+}
+
+.words-only {
+    text-align: center;
+    max-width: 704px;
+    margin: auto;
+    padding-bottom: 72px;
+}
+
+.words-only p {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.copyright {
+    margin: auto;
+    margin-top: 0px;
+    padding-left: 113px;
+    padding-top: 42px;
+    height: 62px;
+    color: #000000;
+    background-color: rgb(226, 255, 5);
+}
