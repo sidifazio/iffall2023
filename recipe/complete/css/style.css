@@ -57,11 +57,6 @@ a {
     margin: -180px;
 }
 
-#serving{
-    position: absolute;
-    margin: -180px;
-}
-
 h2 {
     font-family: "nitti-typewriter-cameo", sans-serif;
     font-weight: 700;
@@ -195,6 +190,17 @@ h3 {
     border-left: solid 1px rgb(38, 60, 39);
 }
 
+.arrow {
+    position: fixed;
+    font-size: 50pt;
+    line-height: 40px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    top: 600px;
+}
+
 .ingredients {
     font-weight: 400;
     font-style: normal;
@@ -279,6 +285,10 @@ h3 {
 @media (max-width: 800px) {
     .content {
         flex-direction: column-reverse;
+    }
+
+    .arrow {
+        display: none;
     }
 
     h1 {
