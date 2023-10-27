@@ -1,0 +1,361 @@
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+    /* nerf */
+
+#btn_nerf {
+    color: black;
+    font-family: "halogen", sans-serif;
+    font-weight: 900;
+    font-style: italic; 
+    font-size: 50px;
+    margin: auto;
+    margin-top: -95px;
+    transform: rotate(-13deg);
+}
+
+.fa-circle-notch {
+    margin-top: 70px;
+    line-height: 130px;
+    font-size: 140px;
+    color: #d73c33;
+    rotate: -105deg;
+    -webkit-text-stroke: black 2px;
+    transform: scale(50%, 150%);
+}
+
+#btn_nerf:hover{
+    color: #f8d84d;
+    text-shadow: 2px 2px  black;
+    -webkit-text-stroke: 2px black;
+    transition: 0.5s;
+}
+
+#btn_nerf:active{
+    color: #4067b2;
+    transition: 0.5s;
+}
+
+    /* harley davidson */
+
+#btn_harley-davidson {
+    color: white;
+    background-color: black;
+    border: #e68a3c solid 5px;
+    outline: black solid 5px;
+    font-size: 30px;
+    padding: 2px 6px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    height: 36px;
+}
+
+#btn_harley-davidson:hover {
+    height: 76px;
+    transition: 0.5s;
+}
+
+#btn_harley-davidson:active {
+    transform: skew(-25deg);
+}
+
+    /* ideo */
+
+#btn_ideo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    width: 90px;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: white 3px;
+    font-style: normal; 
+    text-align: center;
+    line-height: 55px;
+    justify-content: center;
+    padding: 6px 10px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#btn_ideo:hover {
+    flex-direction: row;
+    width: 200px;
+    transition: 0.5s;
+    height: 100px;
+    text-justify: center;
+}
+
+#btn_ideo p {
+    padding: 0;
+    margin: auto;
+}
+
+#btn_ideo p:first-of-type {
+    padding-left: 10px;
+    font-stretch: ultra-expanded;
+}
+
+#btn_ideo:active {
+    background-color: rgb(255, 47, 0);
+}
+
+    /* instagram */
+
+#btn_instagram {
+    font-size: 80px;
+    background-image: linear-gradient(-50deg, rgb(255, 0, 200), rgb(255, 153, 0));
+    color: white;
+    padding: 0 20px;
+    border-radius: 30%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#btn_instagram:hover{
+    font-size: 120px;
+    padding: 0 8px;
+    line-height: 10px;
+    height: 120px;
+    transition: .5s;
+}
+
+#btn_instagram:active{
+    transform: scale(60%, 60%);
+}
+
+    /* cartoon network */
+
+#btn_cartoon-network {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cartoon {
+    color: white;
+    background-color: black;
+    padding: 0px 10px;
+}
+
+.network {
+    color: black;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+#btn_cartoon-network:hover { 
+    transition: 0.5s;
+    transform: rotate(-20deg);
+    box-shadow: 3px 3px 3px gray;
+}
+
+#btn_cartoon-network:active{
+    transform: rotate(360deg);
+}
+
+
+    /* npr */
+
+#btn_npr {
+    display: inline-block;
+    margin: auto;
+    margin-top: 0px;
+}
+
+#btn_npr > span{
+    color: white;
+    padding: 0px 14px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 8px;
+    text-transform: lowercase;
+}
+
+#btn_npr:hover > span {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid 2px black;
+    transition: 0.3s;
+    margin: 0 3px;
+}
+
+#btn_npr:active > span {
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.national {
+    background-color: #ee3a23;
+}
+
+.public {
+    background-color: black;
+}
+
+.radio {
+    background-color: #4067b2;
+}
+
+    /* moo */
+
+#btn_moo {
+    color: #387a5f;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#btn_moo i {
+    visibility: hidden;
+}
+
+.fa-fire-flame-simple {
+    color: #387a5f;
+    font-size: 37px;
+}
+
+#btn_moo:hover > .fa-fire-flame-simple {
+    visibility: visible;
+    transition: 0.5s;
+}
+
+#btn_moo:hover{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s;
+    margin-top: 80px;
+    transition: 0.5s;
+}
+
+#btn_moo:active > .fa-fire-flame-simple{
+    animation: drip .6s infinite;
+    transition: 0.5s;
+}
+
+@keyframes drip {
+    0% {transform: translateY(-300%);}
+    50% {transform: translateY(152%);} 
+    90% {transform: translateY(152%);}
+    100% {transform: translateY(152%);}
+}
+
+    /* exploding kittens */
+
+#btn_exploding-kittens {
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.exploding {
+    background-image: linear-gradient(to bottom, #f4e454, #d73c33);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kittens {
+    color: white;
+}
+
+@keyframes explode {
+    0% {transform: translate(1px, 1px) rotate(0deg);}
+    25% {transform: translate(3px, 0px) rotate(1deg);}
+    50% {transform: translate(-1px, 2px) rotate(-1deg)}
+    75% {transform: translate(3px, 1px) rotate(1deg);}
+    100% {transform: translate(1px, -2px) rotate(-1deg);}
+} 
+
+#btn_exploding-kittens:hover{
+    animation: explode 0.1s infinite;
+}
+
+#btn_exploding-kittens:active{
+    background-color: #b42623;
+    box-shadow:rgb(255, 153, 0) 0px 0px 5px 1px;
+    transition: 0.5s;
+}
+
+    /* mk */
+
+#btn_mk {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: auto;
+    margin-top: 80px;
+    color: black;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: light;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: -1.1rem;
+    line-height: 80px;
+    border: solid 12px black;
+    padding: 0px 20px 0px 1px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#btn_mk:hover{
+    color: rgb(189, 189, 189);
+    border-color: rgb(189, 189, 189);
+    text-shadow: -2px 2px 3px gray;
+    box-shadow: -2px 2px 3px gray;
+    transition: 0.3s;
+}
+
+#btn_mk:active{
+    transform: translate(-1%, 3%);
+    transition: 0.3s;
+}
+
+    /* new yorker */
+
+#btn_new-yorker {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    color: black;
+    font-family: "amandine", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#btn_new-yorker:hover{
+    transform: scaleY(300%);
+    transition: 0.5s;
+}
+
+#btn_new-yorker:active{
+    background-color: #b42623;
+    color: white;
+    padding: 0 10px;
+    height: 30px;
+    padding-bottom: 10px;
+}
