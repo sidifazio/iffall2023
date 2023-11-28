@@ -1,0 +1,324 @@
+* {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/magica-dark-background.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+test {
+    cursor: url(images/arrow.png);
+}
+
+header {
+    background-image: radial-gradient(rgb(0, 9, 15) 10%, rgb(40, 35, 55));
+    color: rgb(255, 196, 199);
+    height: 250px;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: fixed;
+    top: 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(15, 8, 13);
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: solid 1px rgb(58, 32, 46);
+}
+
+.menu > h3 {
+    display: none;
+    color:rgb(250, 163, 169);
+    text-transform: uppercase;
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.menu-grid > a {
+    color:rgb(250, 163, 169);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.menu-grid > a:hover {
+    color: rgb(198, 9, 34);
+}
+
+#magica {
+    width: 800px;
+    object-fit: contain;
+    margin: auto;
+}
+
+#jp-magica {
+    width: 400px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.big-image {
+    max-width: 70%;
+    object-fit: cover;
+    margin-top: -90px;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    top: 400px;
+}
+
+
+h1 {
+    margin: 0;
+    color: rgb(252, 149, 156);
+    font-size: 30px;
+    font-family: "zen-maru-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 26px;
+    margin: auto;
+    text-align: left;
+    padding: 1vw;
+    padding-bottom: 20px;
+    color:rgb(252, 149, 156);
+    width: 70vw;
+    margin-left: 30px;
+    font-family: "zen-maru-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+p {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(195, 178, 189);
+}
+
+.italic {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.japanese {
+    font-family: "zen-maru-gothic", sans-serif;
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    z-index: -1;
+    flex-direction: column;
+    position: relative;
+    margin-top: 250px;
+    color: rgb(250, 163, 169);
+}
+
+.content {
+    padding-bottom: 30px;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(195, 178, 189);
+    max-width: 100%;
+}
+
+content > .small-img {
+    width: 80%;
+    padding: 0px 10px;
+}
+
+.witch {
+    right: -200px;
+    scale: 70%;
+    top: 50px;
+    padding: 0;
+    margin-top: 120px;
+    z-index: -1;
+    position: absolute;
+    animation-name: witch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes small-img {
+    from { transform: translate(0, 0); }
+    60% { transform: translate(0, -10px); }
+    to { transform: translate(0, 0); }
+}
+
+.content-border {
+    border: solid 2px rgb(58, 32, 46);
+    width: 80%;
+    padding: 30px 30px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    box-shadow: rgb(58, 32, 46) 0px 0px 10px;
+}
+
+.page-title {
+    font-size: 50px;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    color:rgb(198, 9, 34);
+    line-height: 70px;
+    font-family: "motion", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.accent {
+    font-size: 12.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    height: 200px;
+    color: rgb(252, 149, 156);
+    background-color:rgb(15, 8, 13);
+    margin: auto;
+    padding-left: 10vw;
+    padding-top: 30px;
+}
+
+footer > a {
+    color: rgb(252, 149, 156);
+}
+
+.on-page {
+    text-decoration: underline;
+}
+
+.small-img {
+    float: right;
+    width: 200px;
+    padding-left: 20px;
+    animation-name: small-img;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.med-img {
+    margin: 0;
+    width: 800px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    #magica {
+        max-width: 350px;
+    }
+
+    #jp-magica {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .menu {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        text-align: center;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+
+    .menu > h3 {
+        display: block;
+    }
+
+    .menu:hover {
+        transition: 0.3s;
+        padding-bottom: 170px;
+    }
+
+    .menu-grid {
+        display: grid;
+        margin: auto;
+        gap: 10px;
+        width: 80vw;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .menu-grid > a {
+        padding: 0px 10px;
+        line-height: 0;
+    }
+
+    .content {
+        margin-bottom: 20px;
+    }
+
+
+
+    .witch {
+        scale: 50%;
+        right: -300px;
+        top: 0px;
+        rotate: -10deg;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    #magica {
+        width: 500px;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1500px) {
+    #magica {
+        width: 500px;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+}
