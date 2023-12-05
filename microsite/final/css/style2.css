@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    background-image: url(../images/magica-dark-background.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    background-image: radial-gradient(rgb(0, 9, 15) 10%, rgb(40, 35, 55));
+    color: rgb(255, 196, 199);
+    height: 250px;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: fixed;
+    top: 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(15, 8, 13);
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: solid 1px rgb(58, 32, 46);
+}
+
+.menu > h3 {
+    display: none;
+    color:rgb(250, 163, 169);
+    text-transform: uppercase;
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.menu-grid > a {
+    color:rgb(250, 163, 169);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.menu-grid > a:hover {
+    color: rgb(198, 9, 34);
+}
+
+#magica {
+    width: 800px;
+    object-fit: contain;
+    margin: auto;
+}
+
+#jp-magica {
+    width: 400px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.big-image {
+    max-width: 70%;
+    object-fit: cover;
+    margin-top: -90px;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    top: 400px;
+}
+
+
+h1 {
+    margin: 0;
+    color: rgb(252, 149, 156);
+    font-size: 30px;
+    font-family: "zen-maru-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 26px;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 20px;
+    color:rgb(252, 149, 156);
+    width: 70vw;
+    margin-left: 30px;
+    font-family: "zen-maru-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h4 {
+    font-size: 26px;
+    margin: auto;
+    color: rgb(119, 80, 101);
+    font-family: "zen-maru-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(195, 178, 189);
+    padding: 0;
+    margin: 0;
+}
+
+.italic {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.japanese {
+    font-family: "zen-maru-gothic", sans-serif;
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    z-index: -1;
+    flex-direction: column;
+    position: relative;
+    margin-top: 250px;
+    color: rgb(250, 163, 169);
+}
+
+.content {
+    
+    padding-bottom: 15px;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(195, 178, 189);
+    max-width: 100%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-nogrid {
+    padding-bottom: 20px;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(195, 178, 189);
+    max-width: 100%;
+    font-size: 18px;
+}
+
+.content > img, .content-border > img {
+    filter: drop-shadow(black 5px 5px 5px);
+}
+
+
+@keyframes small-img {
+    from { transform: translate(0, 0); }
+    60% { transform: translate(0, -6px); }
+    to { transform: translate(0, 0); }
+}
+
+@keyframes small-img2 {
+    from { transform: translate(0, 0); }
+    40% { transform: translate(0, 5px); }
+    to { transform: translate(0, 0); }
+}
+
+.content-border {
+    border: solid 2px rgb(58, 32, 46);
+    width: 80%;
+    max-width: 1000px;
+    padding: 30px 30px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: rgb(58, 32, 46) 0px 0px 10px;
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.page-title {
+    font-size: 50px;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    color:rgb(198, 9, 34);
+    line-height: 70px;
+    font-family: "motion", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.accent {
+    font-size: 12.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color:rgb(15, 8, 13);
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+
+.on-page {
+    text-decoration: underline;
+}
+
+.small-img {
+    margin: auto;
+    width: 200px;
+    padding-left: 20px;
+    animation-name: small-img;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.small-img2 {
+    width: 200px;
+    margin: auto;
+    padding-left: 20px;
+    animation-name: small-img2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+}
+
+.large-img {
+    width: 60%;
+    animation-name: small-img;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    margin-top: 20px;
+}
+
+.source > a {
+    color: rgb(119, 80, 101);
+}
+
+.source > a:hover {
+    color: rgb(252, 149, 156);
+}
+
+
+@media (max-width: 400px) {
+    #magica {
+        max-width: 40px;
+    }
+
+    #jp-magica {
+        max-width: 80%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .title {
+        overflow-x: hidden;
+    }
+
+    .small-img {
+        max-width: 90vw;
+        margin: auto;
+        padding: 0;
+    }
+
+    .small-img2 {
+        max-width: 90vw;
+        margin: auto;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+
+    .content {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .content > p {
+        margin-top: -40px;
+    }
+
+    .content-border {
+        width: 80vw;
+    }
+
+    footer {
+        font-size: 14px;
+        flex-direction: column;
+        gap: 0;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #magica {
+        max-width: 350px;
+    }
+
+    #jp-magica {
+        width: 300px;
+    }
+
+    .small-img {
+        max-width: 90vw;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 60px;
+    }
+
+    .small-img2 {
+        max-width: 90vw;
+        margin: auto;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+
+    .content > p {
+        margin-top: -40px;
+    }
+
+    footer {
+        font-size: 14px;
+        flex-direction: column;
+        gap: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        text-align: center;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+
+    .menu > h3 {
+        display: block;
+    }
+
+    .menu:hover {
+        transition: 0.3s;
+        padding-bottom: 170px;
+    }
+
+    .menu-grid {
+        display: grid;
+        margin: auto;
+        gap: 10px;
+        width: 80vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        white-space: nowrap;
+    }
+
+    .menu-grid > a {
+        padding: 0px 10px;
+        line-height: 0;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .small-img2 {
+        padding-bottom: 40px;
+    }
+    
+}
+
+
+@media (max-width: 1200px) {
+    #magica {
+        width: 500px;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1500px) {
+    #magica {
+        width: 500px;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+}
